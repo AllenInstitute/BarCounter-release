@@ -38,3 +38,6 @@ All input read1 fastq file names must contain "R1", all input read2 fastq file n
 Required RAM increases with the number of whitelist barcodes, tags, and UMIs. However, the increase in memory usage is smaller as the size of the inputs increases. For a dataset containing ~40M reads and 30K cells 4 - 5 Gb of memory is usually sufficient.
 
 BarCounter is single threaded, a single CPU is sufficient.
+
+### Licensing
+All code was written by Elliott Swanson of the Allen Institute for Immunology (elliott.swanson@alleninstitute.org). BarCounter is free for academic use as detailed in LICENSE. Please refer to the following publication for citations: https://doi.org/10.1101/2020.09.04.283887
