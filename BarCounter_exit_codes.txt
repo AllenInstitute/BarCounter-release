@@ -1,0 +1,28 @@
+0: The program executed successfully.
+1: A required argument was not provided.
+2: The maximum number of fastq read pairs (100) was exceeded.
+3: The number of user provided read1 fastq files is different than the number of read2 fastq files.
+4: Sample name (first field of underscore delimited filename) in fastq filename is not the same accross all fastq files.
+5: A read1 fastq file does not contain the "R1" label or is not in standard Illumina naming format.
+6: A read2 fastq file does not contain the "R1" label or is not in standard Illumina naming format.
+7: A user provided fastq file path is invalid.
+8: The user provided barcode whitelist has a file extension other than .gz or .txt.
+9: The user provided taglist failed to open.
+10: A tag in the taglist has an incorrect length.
+11: The user provided taglist contains more than the maximum allowable number of tags.
+12: A tag sequence is listed multiple times in the taglist.
+13: A tag name exceeds the maximum allowable character length.
+14: A tag name is listed multiple times in the taglist.
+15: The taglist is empty (contains zero tags).
+16: The hamming distance beteen two tags is less than the minimum required distance of 3.
+17: A tag contains a non DNA base character.
+18: Failed to load all tags in the taglist for processing.
+19: Could not open the user provided barcode whitelist for reading.
+20: A non DNA base character was included in a whitelist barcode.
+21: Failed to load the user provided barcode whitelist for processing.
+22: Could not open read1 fastq file for reading.
+23: Could not open read2 fastq file for reading.
+24: A non DNA base character was encountered in a read1 fastq barcode sequence.
+25: A non DNA base character was encountered in a read2 fastq tag sequence.
+26: A non DNA base character was encountered in a read1 fastq UMI sequence.
+
