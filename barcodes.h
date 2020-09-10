@@ -1,3 +1,8 @@
+/*
+Code written by Elliott Swanson of the Allen Institute for Immunology (elliott.swanson@alleninstitute.org). Free for academic use only.
+See LICENSE for code reuse permissions.
+*/
+
 #ifndef BARCODES_H
 #define BARCODES_H
 
