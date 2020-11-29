@@ -1,11 +1,22 @@
 # BarCounter
-BarCounter is a tool designed to process Next-Generation Sequencing data and count the number of Unique Molecular Identifiers (UMIs) for each specified Antibody Derived Tag (ADT) for each cell barcode specified in a user provided barcode whitelist. This tool was designed for use with 10X Genomics v3 3' Gene Expression sequencing data produced produced via Cell Hashing or CITE-seq protocols. Tag counts for each whitelist cell barcode with observed counts will be written to a comma separated values file with one barcode per line. Column 1 will contain the barcode sequence, column 2 will contain the total counts from all tags, and all subsequent columns will contain the counts for each tag in the order specified in the taglist. A log file with GMT timestamps will be created with all user displayed messages. Outputs will be written to the user specified directory. If the output directory does not exist at the time of the program running, BarCounter will create it.
+BarCounter is a tool designed to process Next-Generation Sequencing data and count the number of Unique Molecular Identifiers (UMIs) for each specified Antibody Derived Tag (ADT) for each cell barcode specified in a user provided barcode whitelist. 
 
-Barcounter is compiled using GCC version 6.3.0 or newer:  **gcc Bar_Count.c barcodes.c tags.c umis.c -lz -o barcounter**
+This tool was designed for use with 10X Genomics v3 3' Gene Expression sequencing data produced produced via Cell Hashing or CITE-seq protocols. Tag counts for each whitelist cell barcode with observed counts will be written to a comma separated values (.csv) file with one barcode per line. 
+
+Column 1 will contain the barcode sequence, column 2 will contain the total counts from all tags, and all subsequent columns will contain the counts for each tag in the order specified in the taglist. 
+
+A log file with GMT timestamps will be created with all user-displayed messages. 
+
+Outputs will be written to the user specified directory. If the output directory does not exist at the time of the program running, BarCounter will create it.
+
+Barcounter can be compiled using GCC version 6.3.0 or newer:  
+```
+gcc Bar_Count.c barcodes.c tags.c umis.c -lz -o barcounter
+```
 
 ### Definitions:
-Whitelist: A file with either a .txt or .gz extension that lists all valid cell barcodes with one barcode per line.
-Taglist: A comma separated values file (.csv) containing all ADT sequences and names. One tag is listed per line in the format SEQUENCE,Name.
+*barcode whitelist*: A file with either a .txt or .gz extension that lists all valid cell barcodes with one barcode per line.  
+*taglist*: A comma separated values file (.csv) containing all ADT sequences and names. One tag is listed per line in the format SEQUENCE,Name.  
 **ex. GTCAACTCTTTAGCG,HT1**
 
 ### Arguments:
