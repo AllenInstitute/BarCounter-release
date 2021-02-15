@@ -36,7 +36,7 @@ int hamming_distance(char *str1, char *str2)
     return dist;
 }
 
-// Load CSV taglist (15bp "Tag", tag name) into array. Verify a min hamming dist of MIN_TAG_HDIST for all combinations of tags. Returns # of tags "t_count".
+// Load CSV taglist (15bp "Tag", tag name) into array. Returns # of tags "t_count".
 int load_taglist(char *taglist, char tags[MAX_TAGS][TAG_LEN + 1], char names[MAX_TAGS][NAME_LEN + 1])
 {
     // read in csv file of taglist

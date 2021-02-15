@@ -519,7 +519,7 @@ int main(int argc, char *argv[])
 
     // write tag counts to output CSV file
     FILE *out_counts = fopen(counts_file, "w");
-    // test printing counts by re-reading whitelist file
+    // write counts by re-reading whitelist file
     gzFile p_white = gzopen(whitelist, "r");
     int i;
     char barcode[20];
