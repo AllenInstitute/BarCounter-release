@@ -34,9 +34,9 @@ All tag names are required to be unique.
 All tag sequences are required to have a minimum hamming distance of three from all other tags.  
 UMIs are expected to be 12bp long and begin at base 17 in read1.  
 Sequence data (read1 and read2) is expected to be in Ilumina standard gzipped fastq format.  
-Fastq files are expected to follow Illumina standard naming convention (ex. sample1_S1_L001_R1_001.fastq.gz). Fastq file names  
-are underscore delimited: the first field is the sample name, the fourth field is the read number. Both sample name and read  
-number must be present in fastq file names for successful completion of BarCounter.  
+Fastq files are expected to follow Illumina standard naming convention (ex. sample1_S1_L001_R1_001.fastq.gz).  
+Fastq file names are underscore delimited: the first field is the sample name, the fourth field is the read number.  
+Both sample name and read number must be present in fastq file names for successful completion of BarCounter.  
 All input fastq file names must contain the same sample name.  
 All input read1 fastq file names must contain "R1", all input read2 fastq file names must contain "R2".  
 
