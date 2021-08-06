@@ -9,7 +9,7 @@
 8: The user provided barcode whitelist has a file extension other than .gz or .txt.
 9: The user provided taglist failed to open.
 10: A tag in the taglist has an incorrect length.
-11: The user provided taglist contains more than the maximum allowable number of tags.
+11: The user provided taglist contains more than the maximum allowable number of tags (300).
 12: A tag sequence is listed multiple times in the taglist.
 13: A tag name exceeds the maximum allowable character length.
 14: A tag name is listed multiple times in the taglist.
