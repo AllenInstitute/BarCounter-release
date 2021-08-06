@@ -1,5 +1,5 @@
 # BarCounter
-BarCounter is a tool designed to process Next-Generation Sequencing data and count the number of Unique Molecular Identifiers (UMIs) for each specified Antibody Derived Tag (ADT) for each cell barcode specified in a user provided barcode whitelist.  
+BarCounter is a tool designed to process Next-Generation Sequencing data and count the number of Unique Molecular Identifiers (UMIs) for each specified Hash Tag Oligo (HTO) or Antibody Derived Tag (ADT) for each cell barcode specified in a user provided barcode whitelist.  
 
 This tool was designed for use with 10X Genomics v3 3' Gene Expression sequencing data produced via Cell Hashing or CITE-seq protocols. Tag counts for each whitelist cell barcode with observed counts will be written to a comma separated values (.csv) file with one barcode per line.  
 
