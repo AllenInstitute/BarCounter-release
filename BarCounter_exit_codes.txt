@@ -4,7 +4,7 @@
 3: The number of user provided read1 fastq files is different than the number of read2 fastq files.
 4: Sample name (first field of underscore delimited filename) in fastq filename is not the same accross all fastq files.
 5: A read1 fastq file does not contain the "R1" label or is not in standard Illumina naming format.
-6: A read2 fastq file does not contain the "R1" label or is not in standard Illumina naming format.
+6: A read2 fastq file does not contain the "R2" label or is not in standard Illumina naming format.
 7: A user provided fastq file path is invalid.
 8: The user provided barcode whitelist has a file extension other than .gz or .txt.
 9: The user provided taglist failed to open.
